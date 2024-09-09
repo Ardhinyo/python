@@ -1,0 +1,8 @@
+import random 
+x = ("+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890")
+y = int(input("paralonın uzunluğunu belirleyin"))   
+parola = ""
+for i in range (y):
+    m = random.choice(x)
+    parola += m
+print(parola)
